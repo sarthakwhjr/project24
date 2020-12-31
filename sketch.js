@@ -23,12 +23,7 @@ dustbin2= new dustbin (546,605,10,100)
 dustbin3= new dustbin (646,605,10,100)
 ground1= new ground (400,670,800,20)
 	Engine.run(engine);
-  var render = Render.create({ element: document.body, 
-    engine: engine,
-   options:
-    { width: 1300, height: 700, wireframes: false } });
-   Render.run(render);
-
+ 
 }
 
 
